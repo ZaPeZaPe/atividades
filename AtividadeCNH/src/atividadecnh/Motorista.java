@@ -24,8 +24,14 @@ public class Motorista {
     }
 
     public void tipoC(char opcao){
-        if (opcao == 'A' || opcao == 'B' || opcao == 'Z'){
-            this.tipoCNH = opcao;
+        if (opcao == 'A' || opcao == 'a'){
+            this.tipoCNH = 'A';
+        }
+        if (opcao == 'B' || opcao == 'b'){
+            this.tipoCNH = 'B';
+        }
+        if (opcao == 'Z' || opcao == 'z'){
+            this.tipoCNH = 'Z';
         }
     }
 
