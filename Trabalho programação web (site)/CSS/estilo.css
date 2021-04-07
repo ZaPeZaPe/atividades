@@ -1,0 +1,104 @@
+
+.sub{
+    font-size: 20px;
+}
+
+.sub2{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#divnavbar{
+    width: 90%;
+    position: static;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.itemjogo{
+    margin: auto;
+}
+
+.bds{
+    border: 3px solid black;
+}
+
+.tlou{
+    max-height: 80px;
+}
+
+.divimg {
+    display: inline-block;
+}
+
+.img1{
+    margin-left: 95px;
+}
+
+.img2{
+    margin-left: 65px;
+}
+
+.img3{
+    margin-left: 110px;
+}
+
+.img4{
+    margin-left: 130px;
+}
+
+.img5{
+    margin-left: 145px;
+}
+
+.divtlou{
+    width: 45%;
+    margin-left: 30px;
+}
+
+.imgtlou{
+    height: 55%;
+    width: 45%;
+    margin-left: 180px;
+}
+
+.imglink{
+    margin-left: 200px;
+}
+
+.imgvalheim{
+    margin-left: 130px;
+}
+
+.imgodyssey1{
+    margin-left: 500px;
+}
+
+.imgodyssey2{
+    margin-left: 400px;
+    margin-top: 130px;
+}
+
+.divaco{
+    width: 55%;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.imglink{
+    margin-top: 240px;
+    margin-left: 500px;
+    height: 50%;
+    width: 50%;
+}
+
+.divzelda{
+    width: 65%;
+    margin-left: 10px;
+}
+
+.article{
+    margin-left: 10px;
+}
