@@ -29,7 +29,7 @@ public class AtividadeGeometria {
         System.out.println("");
         System.out.println("---- Círculo com parâmetro 3,14 ----");
         System.out.println("Área do Círculo: "+util2.getArea()+" cm²");
-        System.out.printf("Circunferência do Círculo: %.3f cm\n",util2.getCircunferencia());
+        System.out.printf("Cirscunferência do Círculo: %.3f cm\n",util2.getCircunferencia());
         
         Circulo.setPi(Math.PI);
         
