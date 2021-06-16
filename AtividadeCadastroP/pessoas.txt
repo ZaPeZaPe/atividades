@@ -1,0 +1,3 @@
+Jose Silva; 57; 1,69;
+Andressa Soares; 20; 1,81;
+Isaac Luis;17;1,81;
