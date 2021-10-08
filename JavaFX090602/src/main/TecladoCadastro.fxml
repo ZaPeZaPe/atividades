@@ -12,23 +12,23 @@
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.TecladoCadastroController">
    <children>
-      <Label layoutX="113.0" layoutY="38.0" prefHeight="40.0" prefWidth="375.0" text="Cadastro de Pessoas" textFill="#35abc6">
+      <Label layoutX="85.0" layoutY="41.0" prefHeight="42.0" prefWidth="445.0" text="Cadastro de Player RPG" textFill="#35abc6">
          <font>
             <Font name="Eras Bold ITC" size="36.0" />
          </font>
       </Label>
-      <TextField layoutX="113.0" layoutY="147.0" />
-      <Label layoutX="64.0" layoutY="151.0" prefHeight="17.0" prefWidth="42.0" text="Nome:" />
+      <TextField fx:id="textFieldNick" layoutX="113.0" layoutY="147.0" />
+      <Label layoutX="64.0" layoutY="151.0" prefHeight="17.0" prefWidth="42.0" text="Nick:" />
       <Label layoutX="64.0" layoutY="200.0" text="Data de Nascimento:" />
-      <DatePicker layoutX="189.0" layoutY="196.0" prefHeight="25.0" prefWidth="75.0" />
-      <ChoiceBox layoutX="115.0" layoutY="243.0" prefHeight="25.0" prefWidth="149.0" />
-      <Label layoutX="64.0" layoutY="247.0" prefHeight="17.0" prefWidth="42.0" text="Estado:" />
-      <PasswordField layoutX="407.0" layoutY="147.0" />
+      <DatePicker fx:id="datePickerDataNascimento" layoutX="189.0" layoutY="196.0" prefHeight="25.0" prefWidth="75.0" />
+      <ChoiceBox fx:id="comboBoxClasses" layoutX="115.0" layoutY="243.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="64.0" layoutY="247.0" prefHeight="17.0" prefWidth="42.0" text="Classe:" />
+      <PasswordField fx:id="passwordFieldSenha" layoutX="407.0" layoutY="147.0" onAction="#habilitarCadastro" />
       <Label layoutX="358.0" layoutY="151.0" prefHeight="17.0" prefWidth="49.0" text="Senha:" />
-      <CheckBox layoutX="358.0" layoutY="247.0" mnemonicParsing="false" text="Li e aceito os termos" textFill="#dd0505" />
-      <Button layoutX="332.0" layoutY="329.0" mnemonicParsing="false" text="Concluir" textFill="#2fbc3f" />
+      <CheckBox fx:id="checkBoxConcordo" layoutX="358.0" layoutY="247.0" mnemonicParsing="false" text="Li e aceito os termos" textFill="#dd0505" />
+      <Button fx:id="buttonConcluir" layoutX="332.0" layoutY="329.0" mnemonicParsing="false" onAction="#cadastrarPessoa" text="Concluir" textFill="#2fbc3f" />
       <Label layoutX="227.0" layoutY="333.0" text="Finalizar Cadastro" />
       <Label layoutX="358.0" layoutY="200.0" text="Repetir a senha:" />
-      <PasswordField layoutX="451.0" layoutY="196.0" prefHeight="25.0" prefWidth="105.0" />
+      <PasswordField fx:id="passwordFieldSenha2" layoutX="451.0" layoutY="196.0" onAction="#habilitarCadastro" prefHeight="25.0" prefWidth="105.0" />
    </children>
 </AnchorPane>
