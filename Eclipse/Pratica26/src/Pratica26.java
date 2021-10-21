@@ -6,7 +6,7 @@ public class Pratica26 {
 
 		int x=0, valor=0, i=0, y=0, z=0, soma=0;
 		double p1=4, p2=6;
-		int[] vet = new int[100];
+		int[] vet = new int[17];
 		Scanner teclado = new Scanner(System.in);
 
 		while(x!=1) {
