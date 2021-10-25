@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AtividadeBanco/src"/>
+	<classpathentry kind="src" path="AtividadeCadastroP/src"/>
+	<classpathentry kind="src" path="AtividadeCNH/src"/>
+	<classpathentry kind="src" path="AtividadeGeometria/src"/>
+	<classpathentry kind="src" path="AtividadeInstrumento/src"/>
+	<classpathentry kind="src" path="AtividadePets/src"/>
+	<classpathentry kind="src" path="AtividadeRegistroJogo/src"/>
+	<classpathentry kind="src" path="atividadeRevisao/src"/>
+	<classpathentry kind="src" path="atividadeRevisao2/src"/>
+	<classpathentry kind="src" path="AtividadeRobo/src"/>
+	<classpathentry kind="src" path="aula0505/src"/>
+	<classpathentry kind="src" path="aula0705/src"/>
+	<classpathentry kind="src" path="Aula1205/src"/>
+	<classpathentry kind="src" path="aula1703/src"/>
+	<classpathentry kind="src" path="aula1906/src"/>
+	<classpathentry kind="src" path="aula2403/src"/>
+	<classpathentry kind="src" path="Aula2605/src"/>
+	<classpathentry kind="src" path="CPF/src"/>
+	<classpathentry kind="src" path="DesafioNumeros/src"/>
+	<classpathentry kind="src" path="JavaApplication35/src"/>
+	<classpathentry kind="src" path="JavaFX0906/src"/>
+	<classpathentry kind="src" path="JavaFX090602/src"/>
+	<classpathentry kind="src" path="ProjetoDepartamento/src"/>
+	<classpathentry kind="src" path="ProjetoLista/src"/>
+	<classpathentry kind="lib" path="JavaFX090602/dist/JavaFX090602.jar"/>
+	<classpathentry kind="lib" path="JavaFX090602/dist/lib/javafx.base.jar"/>
+	<classpathentry kind="lib" path="JavaFX090602/dist/lib/javafx.controls.jar"/>
+	<classpathentry kind="lib" path="JavaFX090602/dist/lib/javafx.fxml.jar"/>
+	<classpathentry kind="lib" path="JavaFX090602/dist/lib/javafx.graphics.jar"/>
+	<classpathentry kind="output" path="AtividadeBanco/build/classes"/>
+</classpath>

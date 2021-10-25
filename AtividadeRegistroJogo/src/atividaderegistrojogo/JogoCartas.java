@@ -10,6 +10,6 @@ public class JogoCartas extends Jogo {
     
     @Override
     public String getInfoJogo(){
-        return "Nome: " + nome + " | Pre√ßo unit√°rio: " + precoUnitario + " | Classe Et√°ria: " + clasEtaria + " | Quantidade de jogadores: " + qtdJogadores;
+        return "Nome: " + nome + " | PreÁo unit·rio: " + precoUnitario + " | Classe Et·ria: " + clasEtaria + " | Quantidade de jogadores: " + qtdJogadores;
     }
 }

@@ -12,6 +12,6 @@ public class Jogo {
     }
     
     public String getInfoJogo(){
-        return "Nome: " + nome + " | Preço unitário: " + precoUnitario + " | Classe Etária: " + clasEtaria;
+        return "Nome: " + nome + " | Preço unit�rio: " + precoUnitario + " | Classe Et�ria: " + clasEtaria;
     }
 }

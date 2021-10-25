@@ -10,6 +10,6 @@ public class JogoEletronico extends Jogo {
     
     @Override
     public String getInfoJogo(){
-        return "| Nome: " + nome + " |\n| Pre√ßo unit√°rio: " + precoUnitario + " |\n| Classe Et√°ria: " + clasEtaria + " |\n| Tamanho do jogo: " + tamanhoGB +" |";
+        return "| Nome: " + nome + " |\n| PreÁo unit·rio: " + precoUnitario + " |\n| Classe Et·ria: " + clasEtaria + " |\n| Tamanho do jogo: " + tamanhoGB +" |";
     }
 }
