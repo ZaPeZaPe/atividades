@@ -1,0 +1,65 @@
+@model IEnumerable<TreinoDoRamon.Models.Exercicio>
+
+@{
+    ViewData["Title"] = "Exercícios";
+}
+
+<h1>Exercícios</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Exercício
+            </th>
+            <th>
+                Repeticoes
+            </th>
+            <th>
+                Series
+            </th>
+            <th>
+                Tempo max. de execução (min)
+            </th>
+            <th>
+                Equipamento
+            </th>
+            <th>
+                Treino
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Repeticoes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Serie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tempomax)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Equipamento.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Treino.Nome)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ExercicioId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ExercicioId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ExercicioId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
